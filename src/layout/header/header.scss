@@ -1,0 +1,80 @@
+.main-header {
+  .page-header {
+    margin: 12px 0;
+    .header {
+      width: 1260px;
+      margin: auto;
+      display: flex;
+      .header-center {
+        align-items: center;
+        display: flex;
+        .header-logo {
+          .logo {
+            .logo-orbitz {
+              width: 170px;
+              height: 32px;
+            }
+          }
+        }
+        .header-communication {
+          margin-left: 32px;
+          position: relative;
+          .header-button {
+            display: flex;
+            align-items: center;
+            p {
+              color: #616161;
+            }
+          }
+          .option-button {
+            display: none;
+            position: absolute;
+            .option-center {
+              width: 200px;
+              .link-option {
+                text-decoration: none;
+                .option {
+                  display: flex;
+                  align-items: center;
+                  .MuiSvgIcon-root {
+                    margin-right: 20px;
+                    color: #616161;
+                  }
+                  p {
+                    color: #616161;
+                    font-size: 15px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .header-communication:hover {
+          cursor: pointer;
+          color: #007e8f;
+          p {
+            color: #007e8f;
+          }
+        }
+        .header-communication:hover > .option-button {
+          display: block;
+        }
+      }
+      .header-login {
+        margin-left: auto;
+        .link-login {
+          text-decoration: none;
+          .login-center {
+            p {
+              color: #616161;
+            }
+            p:hover {
+              color: #007e8f;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

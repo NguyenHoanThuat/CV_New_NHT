@@ -1,10 +1,15 @@
 import React from "react";
-import PropTypes from "prop-types";
+
+import Header from "../../layout/header";
 
 Home.propTypes = {};
 
-function Home(props) {
-  return <div></div>;
+function Home() {
+  return (
+    <div className="main">
+      <Header />
+    </div>
+  );
 }
 
 export default Home;
